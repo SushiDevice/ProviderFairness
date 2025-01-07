@@ -1,0 +1,6 @@
+.venv/
+.idea/
+data/
+results/
+results_exp/
+moregin.md
