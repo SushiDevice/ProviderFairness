@@ -1,7 +1,20 @@
-# AMBAR
+# Provider Fairness Framework
 
-Our dataset consists of 3,317,428 ratings from around 31,013 users for 443.921 songs and 27,531 artists. The AMBAR dataset contains
-four files described in depth in the following paragraphs.
+This repository contains the code for the Provider Fairness Framework. It is a framework for evaluating and improving fairness in recommender systems.
+
+We include 3 mitigations for the provider fairness problem:
+
+- Confibre
+- PFair
+- MOReGIn
+
+Links to the scientific papers can be found here:
+
+- [Confibre](https://arxiv.org/abs/2305.18298)
+- [PFair](https://arxiv.org/abs/2305.18298)
+- [MOReGIn](https://arxiv.org/abs/2305.18298)
+
+# AMBAR
 
 - user_info.csv. This file contains specific users’ information depicted by the attributes user_id (i.e., the dataset index),
 country, continent and gender.
@@ -42,6 +55,8 @@ requirements.txt).
 
 For running cornac on the data provided, use the notebook Cornac.ipynb where the process is explained. Some variables
 were provided so it can be adapted to other use cases. The data used for this script is found in data/AMBAR.
+
+More cornac documenttation can be found [here](https://cornac.readthedocs.io/en/stable/user/index.html)
 
 ## PyCPFair
 
