@@ -70,9 +70,3 @@ For running PFair on the data provided, use the notebook PFair_multiclass.ipynb.
 section.
 The data for this script is separated and based on the full set. This data may be found in data/PFair.
 
-NDCG
-NDCG-F1
-RMSE 
-MAE
-DP
-KS
